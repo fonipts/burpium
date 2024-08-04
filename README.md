@@ -1,5 +1,8 @@
 # burpium
 
-## Status
+## Install
+In your local machine
+```html
+go install github.com/fonipts/burpium/cmd/burpium@latest
 
-Currently this project is in prototype staging, please wait until we release the alpa stage
+```
