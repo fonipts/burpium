@@ -1,0 +1,22 @@
+name: burpium
+summary: In comming
+description: |
+      In comming
+version: 0.0.1
+grade: devel
+base: core20
+
+confinement: strict
+
+apps:
+  burpium:
+    command: bin/burpium
+    plugs:
+      - home
+      - network
+
+parts:
+  burpium:
+    plugin: go
+    source-type: git
+    source: https://github.com/fonipts/burpium
